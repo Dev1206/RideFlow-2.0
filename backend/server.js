@@ -28,8 +28,9 @@ const corsOptions = {
     'http://localhost:5173',
     'http://localhost:3000',
     'http://127.0.0.1:5173',
-    'https://ride-flow-sooty.vercel.app',
-    'https://ride-flow-ebon.vercel.app'
+    'https://ride-flow-2-0.vercel.app',
+    'https://ride-flow-2-0-git-main-dev1206s-projects.vercel.app',
+    'https://ride-flow-2-0-p0y8zn40y-dev1206s-projects.vercel.app',
   ],
   credentials: true,
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
