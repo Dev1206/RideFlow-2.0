@@ -104,7 +104,7 @@ export const createUser = async (userData: UserData): Promise<ApiResponse<{ toke
 
     console.log('Creating user with Firebase token:', token.substring(0, 20) + '...');
     
-    const response = await fetch(`${API_URL}/users`, {
+    const response = await fetch(`${API_URL}/api/users`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
