@@ -2,7 +2,7 @@ import { AppError, ErrorType, ErrorCode } from '../utils/errorHandling';
 import { Ride, CreateRideRequest } from '../types/ride';
 
 
-const API_URL = import.meta.env.VITE_API_URL || "http://localhost:5001/api";
+const API_URL = import.meta.env.VITE_API_URL || "https://rideflow-2-0.onrender.com/api";
 
 let authToken: string | null = null;
 
