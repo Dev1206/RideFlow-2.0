@@ -180,7 +180,7 @@ export default function ManageUsersPage() {
   };
 
   return (
-    <div className="flex h-screen bg-gray-50 fixed inset-0">
+    <div className="flex h-screen bg-gray-50 fixed inset-0 pb-16">
       <Sidebar onLogout={handleLogout} />
 
       <main className="flex-1 overflow-auto">
