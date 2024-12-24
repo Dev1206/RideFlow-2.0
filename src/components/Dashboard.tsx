@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { useAuth } from '../contexts/AuthContext';
 import { useNavigate, useLocation } from 'react-router-dom';
 import * as api from '../services/api';
-import { FiCalendar, FiClock, FiArrowRight, FiCheckCircle, FiPlus, FiEdit2, FiTrash2, FiMapPin, FiUser, FiTruck, FiXCircle } from 'react-icons/fi';
+import { FiCalendar, FiClock, FiArrowRight, FiCheckCircle, FiPlus, FiEdit2, FiTrash2, FiMapPin, FiUser, FiTruck } from 'react-icons/fi';
 import { convertTo12Hour, formatDate, getNextDayDate } from '../utils/dateUtils';
 import { getStoredToken } from '../services/api';
 import { LoadingSpinner } from './shared/LoadingSpinner';
