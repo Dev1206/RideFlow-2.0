@@ -1101,7 +1101,7 @@ export default function Dashboard(): JSX.Element {
             <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-gradient-to-b from-[#3B82F6]/10 to-transparent rounded-full blur-3xl"></div>
             <div className="absolute bottom-0 left-0 w-[500px] h-[500px] bg-gradient-to-t from-[#8B5CF6]/10 to-transparent rounded-full blur-3xl"></div>
 
-            <div className="p-8 relative">
+            <div className="p-8 relative pb-16">
               {/* Welcome Message */}
               <header className="mb-8">
                 <h1 className="text-4xl font-bold bg-gradient-to-r from-[#3B82F6] via-[#8B5CF6] to-[#D946EF] bg-clip-text text-transparent">
