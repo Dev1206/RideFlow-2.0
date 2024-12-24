@@ -7,6 +7,7 @@ import { EmptyState } from '../components/shared/EmptyState';
 import { useAsyncData } from '../hooks/useAsyncData';
 import * as api from '../services/api';
 import { FiCalendar, FiMapPin, FiUser, FiTruck, FiClock, FiTrash2, FiCheck, FiChevronDown, FiUserX, FiUsers, FiMap, FiPlus, FiSearch, FiFilter } from 'react-icons/fi';
+import { TfiNotepad } from "react-icons/tfi";
 import RidesMap from '../components/RidesMap';
 import { convertTo12Hour, formatDate, getNextDayDate } from '../utils/dateUtils';
 import { groupRides as groupRidesUtil } from '../utils/distanceUtils';
@@ -732,7 +733,23 @@ export default function ManageRidesPage() {
                             </div>
                           )}
                         </div>
-
+                        {/* Notes Section */}
+                        {ride.notes && (
+                          <div className="px-6 py-4 border-t border-gray-100">
+                            <div className="flex items-start gap-3">
+                              <div className="w-10 h-10 rounded-xl bg-gradient-to-r from-amber-400 to-orange-400 p-[1px] relative group-hover:scale-105 transition-transform duration-300">
+                                <div className="absolute inset-0 rounded-xl bg-gradient-to-r from-amber-400 to-orange-400 opacity-0 group-hover:opacity-100 blur-xl transition-opacity duration-500"></div>
+                                <div className="relative w-full h-full rounded-xl bg-gradient-to-r from-amber-400 to-orange-400 flex items-center justify-center">
+                                  <TfiNotepad className="w-5 h-5 text-white" />
+                                </div>
+                              </div>
+                              <div className="flex-1">
+                                <p className="text-sm text-gray-500 mb-1">Notes</p>
+                                <p className="text-sm text-gray-900">{ride.notes}</p>
+                              </div>
+                            </div>
+                          </div>
+                        )}
                         {/* Card Footer - Driver & Actions */}
                         <div className="relative p-6 border-t border-gray-100 flex items-center justify-between">
                           {/* Driver Selection/Display */}
