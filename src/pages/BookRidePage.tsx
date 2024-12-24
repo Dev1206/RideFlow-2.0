@@ -265,8 +265,8 @@ export default function BookRidePage() {
               <div className="bg-white rounded-2xl p-6 border border-gray-100 hover:border-gray-200 transition-all duration-300 hover:shadow-[0_0_40px_-10px_rgba(0,0,0,0.15)]">
                 <div className="space-y-6">
                   <div>
-                    <label className="text-sm font-medium text-gray-700 mb-1 flex items-center gap-2">
-                      <div className="w-8 h-8 rounded-lg bg-gradient-to-r from-[#059669] to-[#34D399] flex items-center justify-center pb-3">
+                    <label className="text-sm font-medium text-gray-700 mb-1 flex items-center gap-2 pb-2">
+                      <div className="w-8 h-8 rounded-lg bg-gradient-to-r from-[#059669] to-[#34D399] flex items-center justify-center">
                         <FiFileText className="w-4 h-4 text-white" />
                       </div>
                       Additional Notes
