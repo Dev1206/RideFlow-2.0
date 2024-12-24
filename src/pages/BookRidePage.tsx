@@ -57,7 +57,7 @@ export default function BookRidePage() {
       });
 
       navigate('/dashboard', { 
-        state: { message: 'Ride booked successfully!' }
+        state: { message: 'Ride booked successfully! Also check spam folder for confirmation email.' }
       });
     } catch (error: any) {
       setError(error.message || 'Failed to book ride');
