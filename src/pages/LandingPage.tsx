@@ -110,7 +110,7 @@ export default function LandingPage() {
               </span>
             </h1>
             <p className="text-xl text-gray-600/90 mb-12 max-w-2xl mx-auto leading-relaxed">
-              Experience seamless ride booking with real-time tracking and professional drivers at your service.
+              Experience seamless ride booking with professional drivers at your service.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <button
@@ -242,9 +242,6 @@ export default function LandingPage() {
           <h2 className="text-4xl font-bold mb-4 text-white [text-shadow:_0_1px_0_rgb(0_0_0_/_20%)]">
             Ready to get started?
           </h2>
-          <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
-            Join thousands of satisfied users who trust RideFlow for their daily commute
-          </p>
           <button
             onClick={handleGoogleSignIn}
             className="group px-8 py-4 bg-white text-gray-900 rounded-xl hover:bg-gray-50 transition-all duration-200 shadow-xl hover:shadow-2xl hover:-translate-y-0.5 relative overflow-hidden"
