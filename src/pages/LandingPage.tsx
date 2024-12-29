@@ -72,7 +72,7 @@ export default function LandingPage() {
               <div className="w-12 h-12 rounded-2xl bg-gradient-to-r from-[#3B82F6] via-[#8B5CF6] to-[#D946EF] p-[1px] relative">
                 <div className="absolute inset-0 rounded-2xl bg-gradient-to-r from-[#3B82F6] via-[#8B5CF6] to-[#D946EF] opacity-0 group-hover:opacity-100 blur-xl transition-opacity duration-500"></div>
                 <div className="relative w-full h-full rounded-2xl bg-gradient-to-r from-[#3B82F6] via-[#8B5CF6] to-[#D946EF] flex items-center justify-center">
-                  <span className="text-2xl font-bold text-white">R</span>
+                  <span className="text-2xl font-bold text-white">🚗</span>
                 </div>
               </div>
               <span className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#3B82F6] via-[#8B5CF6] to-[#D946EF] group-hover:opacity-80 transition-opacity duration-200">
